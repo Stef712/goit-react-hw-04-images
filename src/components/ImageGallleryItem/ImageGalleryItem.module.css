@@ -1,0 +1,19 @@
+.galleryItem {
+  list-style: none;
+  margin: 12px;
+  padding: 2px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease;
+}
+
+.galleryItem img {
+  width: 100%;
+  height: 360px;
+  display: block;
+}
+
+.galleryItem:hover {
+  transform: scale(1.1);
+}
